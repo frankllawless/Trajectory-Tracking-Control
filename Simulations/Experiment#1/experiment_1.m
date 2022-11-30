@@ -2,7 +2,7 @@ clear all
 close all
 
 global d h k m
-% 'd' is the distance of the pen from the base of the robot
+% 'd' is the base-point distance from the centroid
 % 'k' & 'm' are the control parameters
 d = .3; k = 1.3; m = .3;
 
