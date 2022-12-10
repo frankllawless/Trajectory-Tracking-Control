@@ -15,7 +15,7 @@ press space
 
 #completed
 
-#################Some basic ROS commands#################
+###############Some basic ROS instructions###############
 #create a ROS package 
 catkin_create_pkg "package name" std_msgs rospy
 catkin_make 
