@@ -1,18 +1,22 @@
 ########Optitrack trajectory tracking commands###########
+#connect to OptiTrack server
 roslaunch vrpn_OptiTrack vrpn_start.launch
+
 #adjust in launch file:
 	"server" default="{IP_OF_SERVER}"
-
-
+	
+#execute experiment
 rosrun optitrack_trajectory_tracking experiment_{NUMBER OF EXPERIMENT}
 
-press space 
+#user inputs (press in order)
+press space #ready to adjust velocities
 adjust velocity with up and down arrow keys
-press space
+press space #start run
 
-adjust velocity 
+#if using experiment 4 continue traversal
 press space
-
+ajust velocity
+press space
 #completed
 
 ###############Some basic ROS instructions###############
