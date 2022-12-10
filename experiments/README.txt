@@ -13,7 +13,7 @@ press space #ready to adjust velocities
 adjust velocity with up and down arrow keys
 press space #start run
 
-#if using experiment 4 continue traversal
+#if using street_map.py continue traversal
 press space
 ajust velocity
 press space
